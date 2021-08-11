@@ -1,0 +1,62 @@
+h1{
+ text-align: center; /*aligning the "logo"  to the center of the webpage*/
+ font-style: oblique;
+ font-family: cursive;
+ color: gold;
+ letter-spacing: 10px;
+ line-height: 20px;
+ padding: 3%;
+ background-color: brown;
+ font-size: 25px;
+}
+h2{
+  text-align: center;
+  font-size: 15px;
+}
+hr.new4 {
+  border: 1px solid red;
+}
+ol{
+  text-align: center;
+  list-style-position: inside;
+}
+p{ 
+  text-align: center; /* setting my text to the center of the webpage */
+  margin: 0;
+  font-family: cursive; /* changing from the default font which i beleive is aries to cursive*/ 
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+body{
+  background-color: bisque;
+}
+footer{
+  text-align: center;
+ min-height: 100%;
+ position: relative;
+ bottom: 3;
+ left:0 ;
+background-color: brown;
+padding: 1.5%;
+height: 1cm
+}
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.date{ /* .date is a class i have set for all parargraphs including dates so i can style those all at once*/
+  color: royalblue;
+}
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+
+/* look up to see of there is anyway to class all the headers so you dont have to style them indviually. */
